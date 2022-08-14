@@ -5,21 +5,24 @@
  */
 package Main;
 
-import Entidad.MesSecreto;
+import Service.ServiceNIF;
 
 /**
  *
  * @author Johana
  */
-public class Ejercicio_5 {
+public class Ejercicio_4 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         
-        MesSecreto ms = new MesSecreto();
-        ms.adivinarMes();
+        ServiceNIF snif = new ServiceNIF();
+        
+        snif.crearNIF();
+        snif.mostrarNIF();
+        
     }
     
 }

@@ -5,21 +5,18 @@
  */
 package Main;
 
-import Entidad.MesSecreto;
+import Service.ServiceRaices;
 
-/**
- *
- * @author Johana
- */
-public class Ejercicio_5 {
+public class Ejercicio_3 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         
-        MesSecreto ms = new MesSecreto();
-        ms.adivinarMes();
+        ServiceRaices sr = new ServiceRaices();
+        sr.calcular();
+        
     }
     
 }
